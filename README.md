@@ -57,7 +57,7 @@ Ensure you have the following installed:
    ```
 
 ### Set Up Gemini API
-1. Get API access from [Google AI Gemini](https://ai.google.com/gemini/).
+1. Get API access from [Google AI Gemini](https://aistudio.google.com/apikey).
 2. Add the API key to the `.env.local` file:
    ```
    NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
