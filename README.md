@@ -1,7 +1,10 @@
 # AI-Blog
+![image](https://github.com/user-attachments/assets/68544c5d-31fb-4b27-b3be-7420aa1f5ba7)
 
 ## Overview
 This project is a modern AI-powered blog platform built using Next.js, Tailwind CSS, Firebase, and the Gemini API. The platform enables users to generate and manage blog content seamlessly using AI, providing an interactive and efficient writing experience. The entire application is containerized with Docker to ensure ease of deployment and scalability.
+
+![image](https://github.com/user-attachments/assets/2101df07-b11b-4b51-bd5b-fb98c1e46259)
 
 ## Features
 - **AI-Generated Content**: Leverages the Gemini API to assist in content creation.
@@ -11,11 +14,16 @@ This project is a modern AI-powered blog platform built using Next.js, Tailwind 
 - **SEO Optimization**: Built-in SEO best practices to enhance discoverability.
 - **Dockerized Deployment**: Fully containerized for seamless setup and scalability.
 
+![image](https://github.com/user-attachments/assets/9205bdd4-4b44-4a5d-a617-60e38f4372b2)
+
+
 ## Tech Stack
 - **Frontend**: Next.js, Tailwind CSS
 - **Backend**: Firebase Firestore, Gemini API
 - **Authentication**: Firebase Auth
 - **Containerization**: Docker
+
+![image](https://github.com/user-attachments/assets/06a7bb2b-ed48-423f-8277-1e4f2cc17ffe)
 
 ## Installation & Setup
 ### Prerequisites
