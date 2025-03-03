@@ -90,7 +90,3 @@ Feel free to submit issues and pull requests. Follow the standard Git workflow:
 This project is licensed under the MIT License.
 
 ---
-
-### Notes
-This repository serves as a reference for building and containerizing AI-powered full-stack applications. Contributions and improvements are always welcome!
-
