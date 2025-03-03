@@ -4,11 +4,21 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 const apiKey = process.env.NEXT_PUBLIC_GEMINI_API_KEY!;
 const genAI = new GoogleGenerativeAI(apiKey);
 
-// Define the model with the correct version and system instructions
 const model = genAI.getGenerativeModel({
   model: "gemini-1.5-flash-8b",
-  systemInstruction: "Provide detailed responses in plain text format without using asterisks, bullet points, or markdown formatting.",
+  systemInstruction: `Provide detailed responses in plain text format without using asterisks, bullet points, or markdown formatting. 
+  Write a well-structured blog post about the following topic: {prompt}.
+
+      The response should be in plain text without any asterisks or special formatting symbols. Ensure the blog includes:
+
+      Title: A compelling and engaging headline.
+      Add a brief overview that hooks the reader.
+      Body: Detailed paragraphs explaining the topic clearly.
+      Conclusion: A meaningful summary that wraps up the blog effectively.
+
+      Keep the word count under 200 words.`,
 });
+
 
 // Generation configuration
 const generationConfig = {
